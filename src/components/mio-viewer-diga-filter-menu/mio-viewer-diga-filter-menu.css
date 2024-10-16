@@ -1,0 +1,42 @@
+:host {
+  word-wrap: none;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 4px;
+  overflow: hidden;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: thin;
+  transition: scrollbar-color 0.1s ease-in;
+  font-family: var(--mio-font-family);
+}
+
+:host(:hover) {
+  scrollbar-color: var(--mio-viewer-base-info_secondary) transparent;
+}
+
+button {
+  text-wrap: nowrap;
+  cursor: pointer;
+  height: fit-content;
+  width: fit-content;
+}
+.selected {
+  border-radius: 28px;
+  border: 1px solid var(--mio-viewer-base-border);
+  background: var(--mio-viewer-text-link);
+  color: var(--mio-viewer-text-white);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+.disabled {
+  border-radius: 28px;
+  border: 1px solid var(--mio-viewer-base-border);
+  background: var(--mio-viewer-text-white);
+  color: var(--mio-viewer-text-paragraph_secondary);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}

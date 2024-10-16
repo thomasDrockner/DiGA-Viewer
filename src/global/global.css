@@ -1,0 +1,46 @@
+:root {
+  --meta-mio_trkis05: #f6fbfb;
+  --mio-viewer-text-title: #0f172a;
+  --mio-viewer-text-paragraph_primary: #334155;
+  --mio-viewer-text-paragraph_secondary: #64748b;
+  --mio-viewer-text-link: #37a1dd;
+  --mio-viewer-text-white: #ffffff;
+
+  --mio-viewer-base-background: #f8fafc;
+  --mio-viewer-base-border: #cfd7e2;
+  --mio-viewer-base-white: #ffffff;
+  --mio-viewer-base-selected: #eff8fc;
+  --mio-viewer-base-expanded: #f5f5f5;
+  --mio-viewer-base-interactive: #37a1dd;
+  --mio-viewer-base-interactive_disabled: #d8ebf5;
+  --mio-viewer-base-note: #d4f0ff;
+  --mio-viewer-base-confirmation: #16a34a;
+  --mio-viewer-base-info_secondary: #aab4c1;
+
+  /* don't forget to add font-face definitions for custom fonts */
+  --mio-font-family: "Nunito Sans", sans-serif;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/nunito-sans-v15-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/nunito-sans-v15-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/nunito-sans-v15-latin-700.woff2") format("woff2");
+}

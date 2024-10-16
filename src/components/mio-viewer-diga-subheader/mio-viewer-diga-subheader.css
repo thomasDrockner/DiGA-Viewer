@@ -1,0 +1,55 @@
+:host {
+  height: 85px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: left;
+  flex-flow: row nowrap;
+  font-family: var(--mio-font-family);
+  padding-top: 10px;
+}
+
+#subheader-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 26px;
+  font-weight: 700;
+  padding-bottom: 7px;
+}
+
+#hinweis {
+  color: #f08ea3;
+  cursor: pointer;
+  padding: 1px;
+  font-size: 24px;
+}
+
+#hinweis img {
+  height: 20px;
+}
+
+#subheader-subtitle {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.subheader-detail {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+  padding-right: 20px;
+}
+
+.subheader-detail-description {
+  min-width: min-content;
+  padding-right: 4px;
+  color: var(--mio-viewer-text-paragraph_secondary);
+}
+
+.subheader-detail-content {
+  min-width: min-content;
+  white-space: nowrap;
+  color: var(--mio-viewer-text-paragraph_primary);
+}

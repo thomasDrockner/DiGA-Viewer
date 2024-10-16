@@ -1,0 +1,50 @@
+:host {
+  display: block;
+  font-family: var(--mio-font-family);
+}
+#heading {
+  margin-left: 5%;
+  width: 90%;
+  margin-top: 2.5%;
+  border-bottom: 1px solid var(--mio-viewer-base-border);
+}
+#headingName {
+  color: var(--mio-viewer-text-title);
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 0.5%;
+}
+#recordDate {
+  color: var(--mio-viewer-text-paragraph_secondary);
+  padding-bottom: 0.5%;
+}
+#body {
+  margin-top: 2.5%;
+  margin-left: 5%;
+  width: 90%;
+  margin-bottom: 2.5%;
+}
+#table-heading {
+  margin-top: 2.5%;
+  margin-bottom: 0.5%;
+  color: var(--mio-viewer-text-paragraph_secondary);
+}
+#nutrition-table {
+  background: var(--meta-mio_trkis05);
+  width: 100%;
+  margin-bottom: 2.5%;
+  text-align: left;
+}
+.name {
+  color: var(--mio-viewer-text-title);
+  font-weight: 700;
+}
+
+.value {
+  color: var(--mio-viewer-paragraph_primary);
+  font-weight: 700;
+}
+
+td {
+  width: 50%;
+}

@@ -1,0 +1,42 @@
+{
+  "name": "mio-viewer-diga",
+  "version": "0.0.1",
+  "description": "MIO Viewer DiGA",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "es2015": "dist/esm/index.js",
+  "es2017": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "generate": "stencil generate",
+    "eslint:check": "eslint src",
+    "prettier:check": "prettier --check \"./src/**/*.{html,ts,tsx,js,jsx,css}\"",
+    "lint:check": "npm run prettier:check && npm run eslint:check",
+    "validate": "npm run prettier:check && npm run eslint:check && npm run test",
+    "prettier:fix": "prettier --write --cache \"./src/**/*.{html,ts,tsx,js,jsx,css}\""
+  },
+  "dependencies": {
+    "@stencil/core": "^4.12.2"
+  },
+  "devDependencies": {
+    "@stencil-community/eslint-plugin": "^0.7.1",
+    "@types/jest": "^29.5.6",
+    "@types/node": "^16.18.11",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^8.5.0",
+    "jest": "^29.7.0",
+    "jest-cli": "^29.7.0",
+    "prettier": "^3.2.5"
+  },
+  "license": "MIT"
+}

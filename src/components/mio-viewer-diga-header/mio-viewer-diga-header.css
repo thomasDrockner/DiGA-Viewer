@@ -1,0 +1,65 @@
+:host {
+  height: 85px;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: left;
+  border-bottom: 1px solid var(--mio-viewer-base-border);
+  background-color: var(--mio-viewer-base-white);
+  font-family: var(--mio-font-family);
+}
+
+#header-app-logo {
+  width: 10%;
+  min-width: min-content;
+}
+
+#header-app-logo img {
+  align-self: flex-start;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+#header-main {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-bottom: 16px;
+  padding-left: 8px;
+  padding-top: 37px;
+}
+
+#header-title {
+  font-size: 26px;
+  font-weight: 700;
+  padding-bottom: 7px;
+}
+
+#header-subtitle {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.header-detail {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+  padding-right: 20px;
+}
+
+.header-detail-description {
+  min-width: min-content;
+  padding-right: 4px;
+  color: var(--mio-viewer-text-paragraph_secondary);
+}
+
+.header-detail-content {
+  min-width: min-content;
+  white-space: nowrap;
+  color: var(--mio-viewer-text-paragraph_primary);
+}

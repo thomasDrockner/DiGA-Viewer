@@ -1,0 +1,12 @@
+.vscode/
+
+.eslintrc.js
+stencil.config.ts
+
+dist/
+www/
+loader/
+
+src/index.html
+src/index.ts
+src/components.d.ts

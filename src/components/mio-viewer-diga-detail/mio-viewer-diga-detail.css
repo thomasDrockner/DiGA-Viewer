@@ -1,0 +1,42 @@
+:host {
+  font-family: var(--mio-font-family);
+  background: var(--mio-base-white);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.closeLogo {
+  justify-content: right;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.closeLogo img {
+  cursor: pointer;
+  position: absolute;
+}
+
+#record-list {
+  margin-top: 40px;
+  overflow: hidden;
+  overflow-y: auto;
+  overflow-wrap: break-word;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: thin;
+  transition: scrollbar-color 0.1s ease-in;
+  background-color: white;
+  border: 1px solid var(--mio-viewer-base-border);
+  border-radius: 4px;
+  background-color: var(--mio-viewer-base-white);
+  font-family: var(--mio-font-family);
+  padding: 20px;
+}
+
+#record-list:hover {
+  scrollbar-color: var(--mio-viewer-base-info_secondary) transparent;
+}

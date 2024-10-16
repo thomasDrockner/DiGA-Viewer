@@ -1,0 +1,14 @@
+:host {
+  font-family: var(--mio-font-family);
+  background: var(--mio-base-white);
+  overflow: hidden;
+  overflow-y: auto;
+  overflow-wrap: break-word;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: thin;
+  transition: scrollbar-color 0.1s ease-in;
+}
+
+:host(:hover) {
+  scrollbar-color: var(--mio-viewer-base-info_secondary) transparent;
+}
