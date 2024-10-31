@@ -64,7 +64,7 @@ Installieren Sie eine aktuelle Version von NodeJs. Wir empfehlen den Download de
 
 ```bash
 # clone the repo
-git clone https://github.com/thomasDrockner/DiGA-Viewer.git
+git clone https://github.com/thomasDrockner/Prototyp-MIO-Viewer-DiGA-Toolkit.git
 
 # navigate to project directory
 cd DiGA-Viewer
