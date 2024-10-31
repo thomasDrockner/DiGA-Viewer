@@ -22,6 +22,7 @@ export function extractDiGAViewerData(parsedBundle: ParsedBundleData): DiGAViewe
       name: "-",
       identifier: "-",
     },
+    
   };
   const partsLookup: Record<string, DiGAObservationPart> = {};
   const partLinks: { source: DiGAObservationWithParts; targets: string[] }[] = [];

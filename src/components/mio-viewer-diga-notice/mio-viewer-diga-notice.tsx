@@ -29,10 +29,10 @@ export class MioViewerDigaNotice {
             onClick={this.closeNotice}
           ></img>
           <div id="content-container">
-            Dies ist der Prototyp eines MIO-Viewers für digitale Gesundheitsanwendungen
+            Dies ist der Prototyp eines MIO Viewer für digitale Gesundheitsanwendungen
             im Rahmen der Masterarbeit im Fachbereich Medizinische Informatik
             <br /> zum Thema "Visualisierung von Daten aus digitalen
-            Gesundheitsanwendungen (DiGA) in Form einer Webkomponente (MIO-Viewer) im
+            Gesundheitsanwendungen (DiGA) in Form einer Webkomponente (MIO Viewer) im
             Kontext der elektronischen Patientenakte".
             <br />
             Die Testdaten sind an die Bundle-Struktur der DiGA actensio, mementor GmbH,
