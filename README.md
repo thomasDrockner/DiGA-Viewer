@@ -1,7 +1,7 @@
 # Prototyp für den MIO Viewer DiGA-Toolkit
 
 Dies ist das Repository für den JavaScript Prototypen für die Anzeige des MIO DiGA-Toolkit V1.1.0.
-Die Entwicklung fand in Rahmen der Masterarbeit "Visualisierung von Daten aus digitalen Gesundheitsanwendungen (DiGA)
+Die Entwicklung fand in Rahmen der Masterarbeit "Visualisierung struturierter FHIR®-Daten aus digitalen Gesundheitsanwendungen (DiGA)
 in Form einer Webkomponente (MIO Viewer) im Kontext der elektronischen Patientenakte" von Thomas Drockner, 04.11.2024, in Zusammenarbeit mit der mio42 GmbH statt.
 Es handelt sich bei diesem Prototypen um eine Webkomponente basierend auf den aktuellen Webstandards HTML5 und JavaScript, welche MIO-Daten aus Base64-codierten Datenstring einliest.
 Für das Einlesen der MIO-Daten wird eine interne Parsing-Funktion genutzt. 
