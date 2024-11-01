@@ -31,9 +31,7 @@ export class MioViewerDigaNotice {
           <div id="content-container">
             Dies ist der Prototyp eines MIO Viewer für digitale Gesundheitsanwendungen
             im Rahmen der Masterarbeit im Fachbereich Medizinische Informatik
-            <br /> zum Thema "Visualisierung von Daten aus digitalen
-            Gesundheitsanwendungen (DiGA) in Form einer Webkomponente (MIO Viewer) im
-            Kontext der elektronischen Patientenakte".
+            <br /> zum Thema "Visualisierung struturierter FHIR®-Daten aus digitalen Gesundheitsanwendungen (DiGA) in Form einer Webkomponente (MIO Viewer) im Kontext der elektronischen Patientenakte".
             <br />
             Die Testdaten sind an die Bundle-Struktur der DiGA actensio, mementor GmbH,
             orientiert.
